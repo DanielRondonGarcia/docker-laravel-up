@@ -47,3 +47,6 @@ RUN apk add --no-cache $PHPIZE_DEPS \
 
 # Copy code to /var/www
 #COPY --chown=www:www-data . /var/www/html
+
+RUN chmod uga+x /usr/local/bin/install-php-extensions && sync && \
+    install-php-extensions imagick
