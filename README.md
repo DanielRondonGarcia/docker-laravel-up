@@ -1,8 +1,5 @@
 # Docker - Laravel
 
-![Docker](https://github.com/supermavster/docker-laravel-8/workflows/Docker/badge.svg)
-
-
 Un flujo de trabajo de Docker Compose bastante simplificado que configura una red de contenedores LEMP (Linux, NGINX, MySQL, PHP, mailhog) para el desarrollo local de Laravel.
 
 ## Puertos
