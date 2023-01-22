@@ -2,7 +2,6 @@
 
 ![Docker](https://github.com/supermavster/docker-laravel-8/workflows/Docker/badge.svg)
 
-![Image](https://repository-images.githubusercontent.com/309769351/1c0dfc80-1def-11eb-9e5c-641da3e3c9b4)
 
 Un flujo de trabajo de Docker Compose bastante simplificado que configura una red de contenedores LEMP (Linux, NGINX, MySQL, PHP, mailhog) para el desarrollo local de Laravel.
 
@@ -104,3 +103,5 @@ Ejecutar todas las migraciones:
 ```sh
 docker-compose run --rm artisan migrate
 ```
+
+## Adaptado de [supermavster](https://github.com/supermavster/docker-laravel-8)
